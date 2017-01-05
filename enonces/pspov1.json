@@ -1,0 +1,1343 @@
+
+
+[
+{"id" :"1",
+"intitule" :"Quel artefact contient la liste des items à développer ?",
+"choixMultiples" : false,
+"reponsesCorrectes" : [4],
+"reponses" : [
+{"id" : "1", "label" : "Un fichier excel"}
+,{"id" : "2", "label" : "Un board Trello"}
+,{"id" : "3", "label" : "Un cahier des charges"}
+,{"id" : "4", "label" : "Le Product Backlog"}
+]},
+
+{"id" :"2",
+"intitule" :"Une User Story est composée de conditions et références, qui doivent être satisfaites, pour être considérée comme complète, on les appelle :",
+"choixMultiples" : false,
+"reponsesCorrectes" : [1],
+"reponses" : [
+{"id" : "1", "label" : "Les Critères d'Acceptation"}
+,{"id" : "2", "label" : "Les spécifications fonctionnelles"}
+,{"id" : "3", "label" : "Les tests d'acceptances"}
+,{"id" : "4", "label" : "les Epics"}
+]},
+
+{"id" :"3",
+"intitule" :"Qu'est ce que fait le Product Owner ? (plusieurs réponses possibles)",
+"choixMultiples" : true,
+"reponsesCorrectes" : [1, 2, 3, 4],
+"reponses" : [
+{"id" : "1", "label" : "Il crée la vision du produit"}
+,{"id" : "2", "label" : "Il prépare le Product Backlog"}
+,{"id" : "3", "label" : "Il participe aux réunions de Sprint"}
+,{"id" : "4", "label" : "Il collabore avec la Scrum Team"}
+,{"id" : "5", "label" : "Il facilite les réunions."}
+]},
+
+{"id" :"4",
+"intitule" :"Une User Story s'écrit du point de vue de",
+"choixMultiples" : false,
+"reponsesCorrectes" : [1],
+"reponses" : [
+{"id" : "1", "label" : "L'utilisateur"}
+,{"id" : "2", "label" : "De la direction"}
+,{"id" : "3", "label" : "Du Product Manager"}
+,{"id" : "4", "label" : "Du Scrum Master"}
+]},
+
+{"id" :"5",
+"intitule" :"Une User Story s'écrit de la forme",
+"choixMultiples" : false,
+"reponsesCorrectes" : [1],
+"reponses" : [
+{"id" : "1", "label" : "En tant que [utilisateur] je veux [quelque chose] afin de [atteindre un but]"}
+,{"id" : "2", "label" : "Il faut [liste des fonctionnalités à developper]"}
+,{"id" : "3", "label" : "En tant que Stakeholder, j'exige les fonctionnalités suivantes"}
+,{"id" : "4", "label" : "Afin que la Dev Team puisse developper la User Story, il faut"}
+]},
+
+{"id" :"6",
+"intitule" :"Une Epic est",
+"choixMultiples" : false,
+"reponsesCorrectes" : [1],
+"reponses" : [
+{"id" : "1", "label" : "Une grande User Story, trop grosse pour être developpée dans un Sprint et qui doit être découpée en plusieurs User Stories"}
+,{"id" : "2", "label" : "Est estimable afin d'être réalisée en plusieurs Sprints"}
+,{"id" : "3", "label" : "N'existe pas dans les méthodes Agiles, on ne parle que de User Story"}
+,{"id" : "4", "label" : "Est un film d'animation créé en 2013"}
+]},
+
+{"id" :"7",
+"intitule" :"Une User Story doit être",
+"choixMultiples" : false,
+"reponsesCorrectes" : [1],
+"reponses" : [
+{"id" : "1", "label" : "Indépendante, Négociable, à Valeur ajoutée, Estimable, Suffisamment petite, Testable"}
+,{"id" : "2", "label" : "Indiscutable, Négociable, à Valeur ajoutée, Estimée, Suffisament petite, Testable"}
+,{"id" : "3", "label" : "Indépendante, Négociée, Valorisée, Estimable, Suffisamment petite, Testée"}
+,{"id" : "4", "label" : "Indiscutable, Négociée, Valorisée, Estimée, Séquentielle, Testée"}
+]},
+
+{"id" :"8",
+"intitule" :"Quelles sont les 3 raisons principales de découper le produit en User Stories",
+"choixMultiples" : true,
+"reponsesCorrectes" : [1, 2, 3],
+"reponses" : [
+{"id" : "1", "label" : "Pour avoir des éléments prêts à être traités"}
+,{"id" : "2", "label" : "Afin d'accélérer la production de valeur"}
+,{"id" : "3", "label" : "Dans le but de valider au plus tôt les hypothèses"}
+,{"id" : "4", "label" : "Pour pouvoir attribuer plus facilement le travail à la Dev Team"}
+]},
+
+{"id" :"9",
+"intitule" :"A quel moment découper le produit en User Stories ?",
+"choixMultiples" : false,
+"reponsesCorrectes" : [2],
+"reponses" : [
+{"id" : "1", "label" : "Au démarrage du projet en rédigeant les spécifications"}
+,{"id" : "2", "label" : "A tout moment, cela fait partie des missions du Product Owner"}
+,{"id" : "3", "label" : "Uniquement lors de l'élaboration du Product Backlog"}
+]},
+
+{"id" :"10",
+"intitule" :"Quelles sont les 3 affirmations qualifiant les Critères d'Acceptation ?",
+"choixMultiples" : true,
+"reponsesCorrectes" : [1, 2, 3],
+"reponses" : [
+{"id" : "1", "label" : "Ils définissent le sens du « Terminée » de la User Story"}
+,{"id" : "2", "label" : "Ils décrivent les exigences détaillées de la User Story"}
+,{"id" : "3", "label" : "Ils décrivent les tests de la User Story qui doivent passer"}
+,{"id" : "4", "label" : "Ils décrivent les solutions d'implémentation"}
+]},
+
+{"id" :"11",
+"intitule" :"Qui rédige les Critères d'Acceptation ?",
+"choixMultiples" : false,
+"reponsesCorrectes" : [1],
+"reponses" : [
+{"id" : "1", "label" : "Le Product Owner"}
+,{"id" : "2", "label" : "La Dev Team"}
+,{"id" : "3", "label" : "Le Product Manager"}
+,{"id" : "4", "label" : "Les Stakeholders"}
+]},
+
+{"id" :"12",
+"intitule" :"Au travers des Critères d'Acceptation le Product Owner s'engage à :",
+"choixMultiples" : false,
+"reponsesCorrectes" : [1],
+"reponses" : [
+{"id" : "1", "label" : "Ne jamais formuler un besoin sans fournir à la Dev Team les moyens de savoir quand elle aura terminé."}
+,{"id" : "2", "label" : "Formuler un besoin en fournissant à l’équipe l'ordonnancement des actions à réaliser pour finaliser la User Story"}
+,{"id" : "3", "label" : "Ne servent à rien, il y a déjà les spécifications à disposition de la Dev Team"}
+,{"id" : "4", "label" : "Formuler un besoin en fournissant à la Dev Team les moyens de savoir quelles sont les solutions d'implémentation"}
+]},
+
+{"id" :"13",
+"intitule" :"Les Critères d'Acceptation sont rédigés :",
+"choixMultiples" : false,
+"reponsesCorrectes" : [1],
+"reponses" : [
+{"id" : "1", "label" : "Par le Product Owner lors de la rédaction de la User Story et ne sont jamais remis en question, que la User Story soit ajoutée au Sprint Backlog ou pas."}
+,{"id" : "2", "label" : "Par le Product Owner lors de la rédaction de la User Story et peuvent être complétés à tout moment lors des échanges avec la Dev Team tant que la User Story n'a pas été ajoutée au Backlog du Sprint."}
+]},
+
+{"id" :"14",
+"intitule" :"Quelles sont les 4 valeurs que le manifeste Agile privilégie ?",
+"choixMultiples" : true,
+"reponsesCorrectes" : [1, 3, 4, 7],
+"reponses" : [
+{"id" : "1", "label" : "Les individus et leurs interactions"}
+,{"id" : "2", "label" : "La négociation contractuelle"}
+,{"id" : "3", "label" : "Des logiciels opérationnels"}
+,{"id" : "4", "label" : "L’adaptation au changement"}
+,{"id" : "5", "label" : "Des processus et des outils"}
+,{"id" : "6", "label" : "Une documentation exhaustive"}
+,{"id" : "7", "label" : "La collaboration avec les clients"}
+,{"id" : "8", "label" : "Suivre un plan défini"}
+]},
+
+{"id" :"15",
+"intitule" :"La plus haute priorité de l'agilité est de :",
+"choixMultiples" : false,
+"reponsesCorrectes" : [1],
+"reponses" : [
+{"id" : "1", "label" : "Satisfaire le client en livrant rapidement et régulièrement des fonctionnalités à grande valeur ajoutée"}
+,{"id" : "2", "label" : "Livrer le projet en temps et en heure quel que soit le travail réalisé et demandé par la direction"}
+,{"id" : "3", "label" : "Avoir des équipes Agile qui prennent le temps de faire les choses bien plus vite et pour moins cher"}
+,{"id" : "4", "label" : "Permettre de répondre au respect du trio délais, coût et qualité (plan driven)"}
+]},
+
+{"id" :"16",
+"intitule" :"Quel usage n'est pas Scrum",
+"choixMultiples" : false,
+"reponsesCorrectes" : [3],
+"reponses" : [
+{"id" : "1", "label" : "Backlog"}
+,{"id" : "2", "label" : "Product Owner"}
+,{"id" : "3", "label" : "Développement piloté par les tests"}
+,{"id" : "4", "label" : "User Story"}
+]},
+
+{"id" :"17",
+"intitule" :"Quel usage n'est pas eXtrem Programming",
+"choixMultiples" : false,
+"reponsesCorrectes" : [1],
+"reponses" : [
+{"id" : "1", "label" : "WIP (work in progress limit)"}
+,{"id" : "2", "label" : "Développement piloté par les tests"}
+,{"id" : "3", "label" : "Intégration continue"}
+,{"id" : "4", "label" : "User Story"}
+]},
+
+{"id" : "18", 
+"intitule" :"Quel usage n'est pas Kanban",
+"choixMultiples" : false,
+"reponsesCorrectes" : [5],
+"reponses" : [
+{"id" : "1", "label" : "Eliminer le gaspillage"}
+,{"id" : "2", "label" : "WIP (work in progress limit)"}
+,{"id" : "3", "label" : "Flux continu d'activité"}
+,{"id" : "4", "label" : "Développement piloté par les tests"}
+]},
+
+{"id" : "19",
+"intitule" :"En mode Agile, on se concentre sur la réalisation du code, le reste n'importe pas et est sans valeur ajoutée.",
+"choixMultiples" : false,
+"reponsesCorrectes" : [2],
+"reponses" : [
+{"id" : "1", "label" : "VRAI"}
+,{"id" : "2", "label" : "FAUX"}
+]},
+
+{"id" :"20",
+"intitule" :"L'Agile prone :",
+"choixMultiples" : true,
+"reponsesCorrectes" : [2],
+"reponses" : [
+{"id" : "1", "label" : "Le développement de qualité ne laissant aucune place à l'erreur"}
+,{"id" : "2", "label" : "La communication entre les personnes plutôt que l'application des processus ou l'utilisation d'outils"}
+,{"id" : "3", "label" : "la mise en place d'un plan complet et précis permettant de démarrer un projet en toute sécurité."}
+]},
+
+{"id" :"21",
+"intitule" :"En mode Agile, le périmètre est totalement figé en début de projet, et la réalisation se fait de manière itérative.",
+"choixMultiples" : false,
+"reponsesCorrectes" : [2],
+"reponses" : [
+{"id" : "1", "label" : "VRAI"}
+,{"id" : "2", "label" : "FAUX"}
+]},
+
+{"id" :"22",
+"intitule" :"En mode Agile, les coûts, qualité et périmètre sont importants (value driven), en suivant ce concept, quelles sont les affirmations fausses :",
+"choixMultiples" : true,
+"reponsesCorrectes" : [5],
+"reponses" : [
+{"id" : "1", "label" : "Les itérations ont des durées fixées à l'avance."}
+,{"id" : "2", "label" : "Le nombre d'itérations est a priori défini en début de projet."}
+,{"id" : "3", "label" : "Les coûts ne varient que très peu."}
+,{"id" : "4", "label" : "Le périmètre est revu régulièrement et devient une variable d'ajustement naturelle."}
+,{"id" : "5", "label" : "Aucune"}
+]},
+
+{"id" :"23",
+"intitule" :"En mode Agile on tient, les coûts, délais et périmètres (plan driven), partant de ce concept quelles sont les affirmations fausses :",
+"choixMultiples" : true,
+"reponsesCorrectes" : [3],
+"reponses" : [
+{"id" : "1", "label" : "Les projets Agile finissent toujours dans les délais, sans dépassement budgétaire"}
+,{"id" : "2", "label" : "Les projets Agile fournissent le produit défini au départ."}
+,{"id" : "3", "label" : "La question étant fausse il n'y a pas de bonne réponse."}
+]},
+
+{"id" :"24",
+"intitule" :"Le leitmotiv même de l'agilité c'est",
+"choixMultiples" : false,
+"reponsesCorrectes" : [1],
+"reponses" : [
+{"id" : "1", "label" : "délivrer plus de valeur"}
+,{"id" : "2", "label" : "délivrer plus de valeur en moins de temps"}
+,{"id" : "3", "label" : "délivrer plus de valeur en moins de temps, pour moins cher"}
+,{"id" : "4", "label" : "faire mieux, plus vite et moins cher !"}
+]},
+
+{"id" :"25",
+"intitule" :"Une possible devise Agile serait",
+"choixMultiples" : false,
+"reponsesCorrectes" : [2],
+"reponses" : [
+{"id" : "1", "label" : "Diviser pour mieux régner"}
+,{"id" : "2", "label" : "Diviser pour mieux gérer"}
+,{"id" : "3", "label" : "Plus d’honneurs que d’honneur"}
+,{"id" : "4", "label" : "Quand les mouettes suivent un chalutier, c'est qu'elles pensent qu'on va leur jeter des sardines."}
+]},
+
+{"id" :"26",
+"intitule" :"Les concepts Agile ne sont en rien nouveaux, puisque qu'il ne s'agit que d'un ensemble d'itérations représentant chacune un mini cycle en \"V\"",
+"choixMultiples" : false,
+"reponsesCorrectes" : [1],
+"reponses" : [
+{"id" : "1", "label" : "VRAI"}
+,{"id" : "2", "label" : "FAUX"}
+]},
+
+{"id" :"27",
+"intitule" :"Selectionnez les types de projet qui ne peuvent pas fonctionner en mode Agile",
+"choixMultiples" : true,
+"reponsesCorrectes" : [5],
+"reponses" : [
+{"id" : "1", "label" : "Développement web"}
+,{"id" : "2", "label" : "Intégration de progiciel (ERP)"}
+,{"id" : "3", "label" : "Déploiement"}
+,{"id" : "4", "label" : "Infrastructure"}
+,{"id" : "5", "label" : "Aucun"}
+,{"id" : "6", "label" : "Tous"}
+]},
+
+{"id" :"28",
+"intitule" :"Toutes les organisations peuvent déployer et utiliser le mode Agile",
+"choixMultiples" : false,
+"reponsesCorrectes" : [2],
+"reponses" : [
+{"id" : "1", "label" : "Oui, n'importe quelle organisation peut mettre en place de l'Agile, puisque ces méthodes ne dépendent pas des structures hiérarchiques de l'organisation"}
+,{"id" : "2", "label" : "Oui, n'importe quelle organisation peut mettre en place de l'Agile, mais ces méthodes dépendent de l'acceptation et adaptation des structures hiérarchiques."}
+,{"id" : "3", "label" : "Non, ce n'est pas possible, chaque organisation à son propre fonctionnement issue de son histoire et elles ne sont pas assez Agile pour s'adapter."}
+]},
+
+{"id" :"29",
+"intitule" :"La Dev Team ou Scrum Team est composée de :",
+"choixMultiples" : false,
+"reponsesCorrectes" : [2],
+"reponses" : [
+{"id" : "1", "label" : "Le Scrum Master et la Dev Team"}
+,{"id" : "2", "label" : "Le Product Owner, le Scrum Master et la Dev Team"}
+,{"id" : "3", "label" : "Uniquement de développeurs"}
+,{"id" : "4", "label" : "Des Stakeholders, du Product Owner, du Scrum Master et de la Dev Team"}
+]},
+
+{"id" :"30",
+"intitule" :"Les évènements qui constituent un Sprint, sont",
+"choixMultiples" : false,
+"reponsesCorrectes" : [2],
+"reponses" : [
+{"id" : "1", "label" : "Le Grooming ou Backlog Refinement, le Sprint Planning, les Daily Scrum, le Sprint Review, la rétrospective de Sprint"}
+,{"id" : "2", "label" : "Le Sprint Planning, les Daily Scrum , le Sprint Review, la rétrospective de Sprint"}
+,{"id" : "3", "label" : "Le Grooming ou Backlog Refinement, le Sprint Planning, le Sprint Review, la rétrospective de Sprint"}
+,{"id" : "4", "label" : "Le Sprint Planning, le Sprint Review, la rétrospective de Sprint"}
+]},
+
+{"id" :"31",
+"intitule" :"Les artefacts Scrum sont :",
+"choixMultiples" : true,
+"reponsesCorrectes" : [1, 2, 4],
+"reponses" : [
+{"id" : "1", "label" : "Le Product Backlog"}
+,{"id" : "2", "label" : "Le Sprint Backlog"}
+,{"id" : "3", "label" : "Le gantt chart"}
+,{"id" : "4", "label" : "Les incréments de produit"}
+]},
+
+{"id" :"32",
+"intitule" :"Le Product Owner est",
+"choixMultiples" : true,
+"reponsesCorrectes" : [1, 2, 4],
+"reponses" : [
+{"id" : "1", "label" : "Responsable de maximiser la valeur du produit et du travail de la Dev Team"}
+,{"id" : "2", "label" : "Le garant de Scrum et s'assure que Scrum est compris et mis en œuvre"}
+,{"id" : "3", "label" : "Responsable du Product Backlog (qu’il maintient directement ou indirectement)"}
+,{"id" : "4", "label" : "Une seule personne et non un comité. Il est, pour l’équipe, le représentant des parties prenantes pouvant exprimer des besoins sur le produit"}
+]},
+
+{"id" :"33",
+"intitule" :"Le Scrum Master est",
+"choixMultiples" : true,
+"reponsesCorrectes" : [1, 2, 4],
+"reponses" : [
+{"id" : "1", "label" : "Le garant de Scrum et s'assure que Scrum est compris et mis en œuvre"}
+,{"id" : "2", "label" : "Le facilitateur de l’auto-organisation de l’équipe et gardien des pratiques adoptées"}
+,{"id" : "3", "label" : "la personne qui vérifie le produit réalisé par l’équipe afin d’apporter sa validation"}
+,{"id" : "4", "label" : "La personne qui aide à éliminer les obstacles auxquels l’équipe fait face"}
+]},
+
+{"id" :"34",
+"intitule" :"La Dev Team est",
+"choixMultiples" : true,
+"reponsesCorrectes" : [2, 3, 4],
+"reponses" : [
+{"id" : "1", "label" : "Auto organisée et uniquement composée de développeur"}
+,{"id" : "2", "label" : "Auto-organisée et pluridisciplinaire"}
+,{"id" : "3", "label" : "composée de 3 à 9 membres"}
+,{"id" : "4", "label" : "En charge de transformer les fonctions listées dans le Backlog de produit en logiciel opérationnel (le Produit)"}
+]},
+
+{"id" :"35",
+"intitule" :"La Backlog de produit :",
+"choixMultiples" : true,
+"reponsesCorrectes" : [1, 2, 3],
+"reponses" : [
+{"id" : "1", "label" : "Contient la liste des fonctionnalités du produit ordonnée par priorité"}
+,{"id" : "2", "label" : "possède à minima pour chaque élément : une description, une priorité, une estimation, une valeur métier."}
+,{"id" : "3", "label" : "Le Product Owner est redevable de la qualité du Backlog produit et de sa diffusion auprès de l’équipe"}
+,{"id" : "4", "label" : "Tout le monde peut le mettre à jour et ajouter/modifier/supprimer des items"}
+]},
+
+{"id" :"36",
+"intitule" :"Le Sprint Backlog",
+"choixMultiples" : true,
+"reponsesCorrectes" : [1, 2, 3],
+"reponses" : [
+{"id" : "1", "label" : "Est figé à chaque début de Sprint, et matérialise l’engagement de travail de la Dev Team"}
+,{"id" : "2", "label" : "Reprend les éléments les plus prioritaires du Backlog de produit"}
+,{"id" : "3", "label" : "Chaque élément est détaillé en tâches simples, et toutes sont estimées."}
+,{"id" : "4", "label" : "Le Product Owner est responsable de la mise à jour du Backlog de Sprint"}
+]},
+
+{"id" :"37",
+"intitule" :"Quelle est la durée d'un Sprint ?",
+"choixMultiples" : false,
+"reponsesCorrectes" : [2],
+"reponses" : [
+{"id" : "1", "label" : "La durée d'un Sprint n'est pas figée, elle peut changer en fonction des besoins des Stakeholders"}
+,{"id" : "2", "label" : "La durée d'un Sprint ne peut excéder un mois."}
+,{"id" : "3", "label" : "La durée d'un Sprint est de 2 semaines pour un projet de 6 mois"}
+,{"id" : "4", "label" : "La durée d'un Sprint est définie en fonction de l'objectif du Sprint"}
+]},
+
+{"id" :"38",
+"intitule" :"Le Sprint",
+"choixMultiples" : false,
+"reponsesCorrectes" : [2],
+"reponses" : [
+{"id" : "1", "label" : "Peut voir son contenu modifié à tout moment par le Product Owner ou le Scrum Master"}
+,{"id" : "2", "label" : "Peut être exceptionnellement annulé par le Product Owner car les priorités ont changées"}
+,{"id" : "3", "label" : "N'a pas d'objectif, c'est la vision produit qui détermine l'objectif du projet"}
+,{"id" : "4", "label" : "Est trop rapide pour mettre une fonctionnalité en Production"}
+]},
+
+{"id" :"39",
+"intitule" :"le Daily Scrum",
+"choixMultiples" : false,
+"reponsesCorrectes" : [2],
+"reponses" : [
+{"id" : "1", "label" : "Ne peut pas excéder le Scrum Master"}
+,{"id" : "2", "label" : "Ne peut pas excéder 15 minutes"}
+,{"id" : "3", "label" : "Les Stakholders doivent participer au Daily Scrum"}
+,{"id" : "4", "label" : "Le Daily Scrum n'a pas d'heure fixe par ce qu'on est Agile."}
+]},
+
+{"id" :"40",
+"intitule" :"Quelles sont les 3 questions à se poser en Daily Scrum ?",
+"choixMultiples" : true,
+"reponsesCorrectes" : [1, 2, 3],
+"reponses" : [
+{"id" : "1", "label" : "Qu'est ce que j'ai fait hier afin d'atteindre l'objectif du Sprint ?"}
+,{"id" : "2", "label" : "Qu'est ce que je vais faire aujourd'hui afin d'atteindre l'objectif du Sprint ?"}
+,{"id" : "3", "label" : "Quelles difficultées ou blocages ai-je rencontré ?"}
+,{"id" : "4", "label" : "Quel est le choix technique d'implémentation de ma Story ?"}
+]},
+
+{"id" :"41",
+"intitule" :"La durée d'une réunion de plannification de Sprint est de :",
+"choixMultiples" : false,
+"reponsesCorrectes" : [2],
+"reponses" : [
+{"id" : "1", "label" : "Il n'y a pas de durée, on ne sort pas de réunion tant qu'on n'a pas terminé"}
+,{"id" : "2", "label" : "De 8 heures pour un Sprint d'un mois."}
+,{"id" : "3", "label" : "La plannification de Sprint est optionnelle, la Dev Team s'auto organise."}
+,{"id" : "4", "label" : "Est fixée par la Dev Team à chaque planning en fonction de l'objectif de Sprint"}
+]},
+
+{"id" :"42",
+"intitule" :"Quels sont les 2 objectifs principaux d'une réunion de planification de Sprint ?",
+"choixMultiples" : true,
+"reponsesCorrectes" : [1, 3],
+"reponses" : [
+{"id" : "1", "label" : "Déterminer ce que la Dev Team pourra terminer pendant le Sprint"}
+,{"id" : "2", "label" : "Le Product Owner présente les User Stories qui doivent être impérativement terminées pendant le Sprint"}
+,{"id" : "3", "label" : "La Dev Team détermine comment elle pourra terminer les User Stories embarquées"}
+,{"id" : "4", "label" : "Les Stakeholders expliquent l'objectif du Sprint"}
+]},
+
+{"id" :"43",
+"intitule" :"Les 3 principales activités du planning de Sprint sont :",
+"choixMultiples" : true,
+"reponsesCorrectes" : [1, 3, 4],
+"reponses" : [
+{"id" : "1", "label" : "Le Product Owner expose les items prioritaires du Backlog produit"}
+,{"id" : "2", "label" : "La Dev Team estime la complexité des User Stories en accord avec le budget alloué par le project manager"}
+,{"id" : "3", "label" : "La Dev Team et le Product Owner échangent pour avoir une compréhension commune"}
+,{"id" : "4", "label" : "L’équipe s’engage sur un périmètre de besoins à implémenter pour le Sprint"}
+,{"id" : "5", "label" : "Le Scrum Master découpe chaque besoin en tâches."}
+]},
+
+{"id" :"44",
+"intitule" :"Pendant un Sprint la Dev Team s'engage à",
+"choixMultiples" : false,
+"reponsesCorrectes" : [2],
+"reponses" : [
+{"id" : "1", "label" : "Respecter le planning fixé par le chef de projet technique pendant le Sprint Planning"}
+,{"id" : "2", "label" : "A respecter l'objectif de Sprint qu'elle a elle même défini pendant le Sprint Planning"}
+,{"id" : "3", "label" : "A respecter l'objectif de Sprint défini par les Stakeholders pendant la rétrospective"}
+,{"id" : "4", "label" : "A démarrer le développement de toutes les User Stories même si aucune ne peut être présentées en review"}
+]},
+
+{"id" :"45",
+"intitule" :"La durée d'une revue de Sprint est de",
+"choixMultiples" : false,
+"reponsesCorrectes" : [1],
+"reponses" : [
+{"id" : "1", "label" : "Maximum 4h pour un Sprint d'un mois"}
+,{"id" : "2", "label" : "Il n'y a pas de durée, il est impératif de tout présenter en détail"}
+,{"id" : "3", "label" : "De 2h par Sprint"}
+,{"id" : "4", "label" : "D'une durée viariable en fonction de la durée des Sprints."}
+]},
+
+{"id" :"46",
+"intitule" :"L'objectif d'une revue de Sprint est",
+"choixMultiples" : false,
+"reponsesCorrectes" : [2],
+"reponses" : [
+{"id" : "1", "label" : "D'échanger avec les Stakeholders du contenu des prochaines itérations"}
+,{"id" : "2", "label" : "De démontrer le produit et de valider son avancement"}
+,{"id" : "3", "label" : "De controler que la Dev Team à atteint l'objectif de Sprint pour en faire un compte rendu en CODIR"}
+,{"id" : "4", "label" : "Pour le Scrum Master de savoir à qui il va pouvoir distribuer des primes indexées sur l'atteinte des objectifs individuels"}
+]},
+
+{"id" :"47",
+"intitule" :"Les 2 principales activités d'une revue de Sprint sont",
+"choixMultiples" : true,
+"reponsesCorrectes" : [1, 2],
+"reponses" : [
+{"id" : "1", "label" : "La Dev Team présente le produit à l’équipe Scrum et aux éventuelles parties prenantes invitées par le Product Owner"}
+,{"id" : "2", "label" : "Le Product Owner valide ou non les fonctionnalités produites"}
+,{"id" : "3", "label" : "Le Scrum Master valide ou non les fonctionnalités produites"}
+,{"id" : "4", "label" : "Faire le point sur le déroulement du Sprint et voir quels points peuvent être améliorés"}
+]},
+
+{"id" :"48",
+"intitule" :"La durée d'une rétrospective de Sprint est de",
+"choixMultiples" : false,
+"reponsesCorrectes" : [2],
+"reponses" : [
+{"id" : "1", "label" : "1h quelque soit la durée du Sprint"}
+,{"id" : "2", "label" : "Maximum 3h pour un Sprint d’un mois."}
+,{"id" : "3", "label" : "d'une durée variable en fonction de ce qui a été produit pendant un Sprint, par ailleurs la rétro n'est pas obligatoire"}
+,{"id" : "4", "label" : "Il n'y a pas de durée, il est impératif de trouver une solution à tous les points d'amélioration."}
+]},
+
+{"id" :"49",
+"intitule" :"L'objectif d'une retrospective de Sprint est",
+"choixMultiples" : false,
+"reponsesCorrectes" : [1],
+"reponses" : [
+{"id" : "1", "label" : "De faire le point sur ce qui c'est passé pendant le Sprint afin de s'améliorer"}
+,{"id" : "2", "label" : "De pouvoir exprimer aux StakeHolders que leur demandes sont mal formalisées"}
+,{"id" : "3", "label" : "De permettre au Product Owner, Scrum Master et Dev Team d'échanger au moins une fois par Sprint"}
+,{"id" : "4", "label" : "De regarder ce qui a fonctionné avant d'être Agile et que la Scrum Team pourrait refaire"}
+]},
+
+{"id" :"50",
+"intitule" :"Les 2 principales activités d'une retrospective sont",
+"choixMultiples" : true,
+"reponsesCorrectes" : [2, 3],
+"reponses" : [
+{"id" : "1", "label" : "Identifier qui a commit des erreurs ayant empêchées d'atteindre l'objectif de Sprint"}
+,{"id" : "2", "label" : "Examiner le déroulement du dernier Sprint"}
+,{"id" : "3", "label" : "Etablir un plan d’action d’amélioration partagé par toute l’équipe Scrum"}
+,{"id" : "4", "label" : "Permettre au Scrum Master de rappeler quelles sont les valeurs de l'entreprise."}
+]},
+
+{"id" :"51",
+"intitule" :"Par l'utilisation des itérations et incrémentations de produit, l'agilité cherche à :",
+"choixMultiples" : false,
+"reponsesCorrectes" : [1],
+"reponses" : [
+{"id" : "1", "label" : "Livrer un incrément de produit ou produit entièrement utilisable à chaque étape"}
+,{"id" : "2", "label" : "Livrer un incrément de produit ou produit indépendant et qui sera peut-être utilisable aprés la réalisation des futures étapes"}
+,{"id" : "3", "label" : "Découper le produit au maximum en unité de travail indépendante et réalisable pendant un Sprint en suivant un planning précis."}
+]},
+
+{"id" :"52",
+"intitule" :"Le Scrum \"SnowMan\" représente",
+"choixMultiples" : false,
+"reponsesCorrectes" : [1],
+"reponses" : [
+{"id" : "1", "label" : "Un Sprint ou itération incluant les évènements, planning, Daily Scrum, review et rétro durant maximun 4 semaines afin de réaliser l'objectif au travers du Backlog de Sprint"}
+,{"id" : "2", "label" : "Toute l'organisation, partant de la vision, passant par les itérrations allant jusqu'aux incréments de produit."}
+,{"id" : "3", "label" : "Un Sprint ou itération représentant une période de développement dans le but de réaliser un incrément de produit, les évènements Scrum étant en dehors du Sprint."}
+]},
+
+{"id" :"53",
+"intitule" :"Scrum c'est ... (selectionner les affirmations vraies)",
+"choixMultiples" : true,
+"reponsesCorrectes" : [1, 2, 3],
+"reponses" : [
+{"id" : "1", "label" : "Une approche itérative et incrémentale pour le développement de logiciel"}
+,{"id" : "2", "label" : "Réaliser de manière collaborative, par des équipes resProduct Ownernsabilisées, appliquant un cérémonial minimal"}
+,{"id" : "3", "label" : "Qui produisent un logiciel de grande qualité, dans un délai contraint, répondant aux besoins changeants des utilisateurs."}
+,{"id" : "4", "label" : "Une méthode fournissant des réponses dans la manière de construire des logiciels de qualités, rapidement."}
+]},
+
+{"id" :"54",
+"intitule" :"Un Sprint est",
+"choixMultiples" : false,
+"reponsesCorrectes" : [2],
+"reponses" : [
+{"id" : "1", "label" : "Une méthode permettant de savoir quelle Dev Team à la meilleur vélocité"}
+,{"id" : "2", "label" : "Une iterration de produit permettant de délivrer de la valeur immédiatement utilisable par les utilisateurs"}
+]},
+
+{"id" :"55",
+"intitule" :"Une User Story est",
+"choixMultiples" : false,
+"reponsesCorrectes" : [2],
+"reponses" : [
+{"id" : "1", "label" : "Une histoire racontée par les Stakeholders afin de partager la vision du produit à developper"}
+,{"id" : "2", "label" : "Une histoire utilisateur qui représente une exigence du système à développer. Elle est formalisée dans le langage de l’utilisateur"}
+]},
+
+{"id" :"56",
+"intitule" :"Un Backlog est",
+"choixMultiples" : false,
+"reponsesCorrectes" : [2],
+"reponses" : [
+{"id" : "1", "label" : "Une accumulation de travail"}
+,{"id" : "2", "label" : "Une liste d'items priorisés"}
+,{"id" : "3", "label" : "Une liste d'items à réaliser pendant une itération"}
+]},
+
+{"id" :"57",
+"intitule" :"Un Backlog de Sprint est",
+"choixMultiples" : false,
+"reponsesCorrectes" : [3],
+"reponses" : [
+{"id" : "1", "label" : "Une accumulation de travail"}
+,{"id" : "2", "label" : "Une liste d'items priorisés"}
+,{"id" : "3", "label" : "Une liste d'items à réaliser pendant une itération"}
+]},
+
+{"id" :"58",
+"intitule" :"la Development TEAM c'est",
+"choixMultiples" : false,
+"reponsesCorrectes" : [2],
+"reponses" : [
+{"id" : "1", "label" : "la Dev Team et le Scrum Master"}
+,{"id" : "2", "label" : "la Dev Team"}
+,{"id" : "3", "label" : "la Dev Team, le Scrum Master et le Product Owner"}
+,{"id" : "4", "label" : "la Dev Team, le Scrum Master, Product Owner et le Stakeholder"}
+]},
+
+{"id" :"59",
+"intitule" :"La Scrum Team c'est",
+"choixMultiples" : false,
+"reponsesCorrectes" : [3],
+"reponses" : [
+{"id" : "1", "label" : "la Dev Team et le Scrum Master"}
+,{"id" : "2", "label" : "la Dev Team"}
+,{"id" : "3", "label" : "la Dev Team, le Scrum Master et le Product Owner"}
+,{"id" : "4", "label" : "la Dev Team, le Scrum Master, Product Owner et le Stakeholder"}
+]},
+
+{"id" :"60",
+"intitule" :"La Definition of Done (DoD) c'est",
+"choixMultiples" : false,
+"reponsesCorrectes" : [1],
+"reponses" : [
+{"id" : "1", "label" : "Une liste de critères généraux qui appliqués aidera à réaliser et à valider une User Story"}
+,{"id" : "2", "label" : "C’est l’ensemble de conditions et références que la User Story doit satisfaire pour être considérée comme complète"}
+,{"id" : "3", "label" : "Une liste de critères qui si respectés, permettront à la Dev Team de pouvoir embarquer la User Story dans un Sprint"}
+]},
+
+{"id" :"61",
+"intitule" :"Les Critères d'Acceptation c'est",
+"choixMultiples" : false,
+"reponsesCorrectes" : [2],
+"reponses" : [
+{"id" : "1", "label" : "Une liste de critères généraux qui appliqués aidera à réaliser et à valider une User Story"}
+,{"id" : "2", "label" : "C’est l’ensemble de conditions et références que la User Story doit satisfaire pour être considérée comme complète"}
+,{"id" : "3", "label" : "Une liste de critères qui si respectés, permettront à la Dev Team de pouvoir embarquer la User Story dans un Sprint"}
+]},
+
+{"id" :"62",
+"intitule" :"La définition de prêt c'est",
+"choixMultiples" : false,
+"reponsesCorrectes" : [3],
+"reponses" : [
+{"id" : "1", "label" : "Une liste de critères généraux qui appliqués aidera à réaliser et à valider une User Story"}
+,{"id" : "2", "label" : "C’est l’ensemble de conditions et références que la User Story doit satisfaire pour être considérée comme complète"}
+,{"id" : "3", "label" : "Une liste de critères qui si respectés, permettront à la Dev Team de pouvoir embarquer la User Story dans un Sprint"}
+]},
+
+{"id" :"63",
+"intitule" :"Le Scrum flow représente",
+"choixMultiples" : false,
+"reponsesCorrectes" : [2],
+"reponses" : [
+{"id" : "1", "label" : "Un Sprint ou itération incluant les évènements, planning, Daily Scrum, review et rétro durant maximun 4 semaines afin de réaliser l'objectif au travers du Backlog de Sprint"}
+,{"id" : "2", "label" : "Toute l'organisation, partant de la vision, passant par les itérrations allant jusqu'aux incréments de produit."}
+,{"id" : "3", "label" : "Un Sprint ou itération représentant une période de développement dans le but de réaliser un incrément de produit, les évènements Scrum étant en dehors du Sprint."}
+]},
+
+{"id" :"64",
+"intitule" :"pour quelle raison un Product Owner pourrait décaler le démarrage d'un nouveau Sprint ?",
+"choixMultiples" : false,
+"reponsesCorrectes" : [2],
+"reponses" : [
+{"id" : "1", "label" : "Il n'y a pas assez d'item prêt dans le Product Backlog"}
+,{"id" : "2", "label" : "Le Product Owner ne peut pas décaler le démarrage d'un Sprint, un nouveau Sprint démarre immédiatement aprés la fin du précédent"}
+,{"id" : "3", "label" : "Les stakholders n'ont pas eu l'accord de la direction pour lancer le développement du produit"}
+,{"id" : "4", "label" : "La Daily ScrumI n'a pas fini son analyse technique quant à la faisabilité des items prévus"}
+]},
+
+{"id" :"65",
+"intitule" :"Qu'est ce qui permet et autorise le démarrage de la réunion de Sprint Planning",
+"choixMultiples" : false,
+"reponsesCorrectes" : [3],
+"reponses" : [
+{"id" : "1", "label" : "Un Backlog de produit complet et totalement priorisé"}
+,{"id" : "2", "label" : "Les Stakeholders ont validé un nouvel objectif de Sprint"}
+,{"id" : "3", "label" : "Un Sprint Planning à toujours lieu, il n'y a besoin d'aucune autorisation ou condition pour en démarrer un"}
+,{"id" : "4", "label" : "Que toutes les User Stories du Sprint précédent aient été réalisées et validées"}
+]},
+
+{"id" :"66",
+"intitule" :"Est-ce que le Product Owner doit être présent à la Sprint rétro",
+"choixMultiples" : false,
+"reponsesCorrectes" : [3],
+"reponses" : [
+{"id" : "1", "label" : "C'est avant tout une réunion pour le Dev Team et son inspection, dans ce cadre la présence du Product Owner n'est pas nécessaire"}
+,{"id" : "2", "label" : "Le Product Owner peut participer à la rétro uniquement si la Dev Team ou le Scrum Master l'y invite."}
+,{"id" : "3", "label" : "Il est nécessaire que le Product Owner soit présent à la rétrospective, c'est une réunion d'inspection et une opProduct Ownerrtunité de s'améliorer pour la Scrum Team."}
+]},
+
+{"id" :"67",
+"intitule" :"Quelles sont les 5 valeurs de Scrum",
+"choixMultiples" : false,
+"reponsesCorrectes" : [2],
+"reponses" : [
+{"id" : "1", "label" : "Courage, Respectable, Droit à l'erreur et Discipline"}
+,{"id" : "2", "label" : "Courage, Focus, Engagement, Respect et Ouverture"}
+,{"id" : "3", "label" : "Rigueur, Engagement, Force, Travail et Honneur"}
+,{"id" : "4", "label" : "Transparence, Autonomie, Suffisance, Courage et Rigueur"}
+]},
+
+{"id" :"68",
+"intitule" :"Laquelle de ces pratiques n'est pas Scrum ?",
+"choixMultiples" : false,
+"reponsesCorrectes" : [4],
+"reponses" : [
+{"id" : "1", "label" : "Vision claire et partagée"}
+,{"id" : "2", "label" : "Product Backlog entretenu"}
+,{"id" : "3", "label" : "Product Backlog priorisé en fonction de la valeur métier"}
+,{"id" : "4", "label" : "Work in progress limit"}
+]},
+
+{"id" :"69",
+"intitule" :"Lesquelles de ces pratiques sont Scrum ?",
+"choixMultiples" : true,
+"reponsesCorrectes" : [1, 3, 4],
+"reponses" : [
+{"id" : "1", "label" : "Pilotage des incréments fonctionnel"}
+,{"id" : "2", "label" : "Continuous delivery"}
+,{"id" : "3", "label" : "Daily Scrum"}
+,{"id" : "4", "label" : "Sprint non perturbés ni par le management ni par le client"}
+]},
+
+{"id" :"70",
+"intitule" :"Laquelle de ces pratiques n'est pas Scrum ?",
+"choixMultiples" : false,
+"reponsesCorrectes" : [2],
+"reponses" : [
+{"id" : "1", "label" : "L’équipe ne délivre que des items terminés"}
+,{"id" : "2", "label" : "Développement guidé par les tests"}
+,{"id" : "3", "label" : "Retrospective, amélioration, processus et organisation collaborative"}
+,{"id" : "4", "label" : "Burndown / Burnup charts"}
+]},
+
+{"id" :"71",
+"intitule" :"La Scrum Team est un groupe qui partage les mêmes objectifs et un travail commun, quelles sont les 3 affirmations vraies ?",
+"choixMultiples" : true,
+"reponsesCorrectes" : [1, 2, 4],
+"reponses" : [
+{"id" : "1", "label" : "Les membres de la Dev Team se supportent mutuellement"}
+,{"id" : "2", "label" : "C'est un groupe qui se respecte, qui a la culture du partage"}
+,{"id" : "3", "label" : "La Scrum Team est pilotée par le Scrum Master"}
+,{"id" : "4", "label" : "C'est un groupe qui a commencé un processus de team building"}
+]},
+
+{"id" :"72",
+"intitule" :"Le Scrum Master est le \"protecteur\" de la Dev Team, toutefois ...",
+"choixMultiples" : false,
+"reponsesCorrectes" : [1],
+"reponses" : [
+{"id" : "1", "label" : "Si besoin, la Dev Team peut faire appel à des spécialistes pendant le Sprint"}
+,{"id" : "2", "label" : "Avec l'accord du Product Owner, la Dev Team peut demander de plannifier l'intervention d'un spécialiste pour un Sprint futur"}
+,{"id" : "3", "label" : "... Il n'y a pas de \"toutefois\", rien ne peut déranger la Dev Team dans l'atteinte de son objectif"}
+]},
+
+{"id" :"73",
+"intitule" :"Quelles sont les 3 affirmations qui caractérisent un Scrum Master",
+"choixMultiples" : true,
+"reponsesCorrectes" : [1, 2, 3],
+"reponses" : [
+{"id" : "1", "label" : "Il porte Scrum dans la Dev Team"}
+,{"id" : "2", "label" : "Il fait partie de la Scrum Team"}
+,{"id" : "3", "label" : "Il gère les impediments"}
+,{"id" : "4", "label" : "Il pilote la Dev Team et les réunions"}
+]},
+
+{"id" :"74",
+"intitule" :"Quelles sont les missions du Product Owner ?",
+"choixMultiples" : true,
+"reponsesCorrectes" : [1, 2, 4],
+"reponses" : [
+{"id" : "1", "label" : "Responsable du succès du projet et du ROI"}
+,{"id" : "2", "label" : "Décide de la date de release, du contenu et du budget"}
+,{"id" : "3", "label" : "Il pilote les réunions et est garant de Scrum"}
+,{"id" : "4", "label" : "Il a la vision et la manage, il est actif"}
+]},
+
+{"id" :"75",
+"intitule" :"Qu'est ce qui n'est pas de la responsablité du Product Owner",
+"choixMultiples" : false,
+"reponsesCorrectes" : [2],
+"reponses" : [
+{"id" : "1", "label" : "Raffine continuellement les demandes"}
+,{"id" : "2", "label" : "Découpe les User Stories en taches"}
+,{"id" : "3", "label" : "Défini le calendrier des développements en priorisant le Backlog"}
+,{"id" : "4", "label" : "Crée et met à jour le plan de release et le communique"}
+]},
+
+{"id" :"76",
+"intitule" :"Qu'est ce que ne fait pas le Product Owner ?",
+"choixMultiples" : false,
+"reponsesCorrectes" : [1],
+"reponses" : [
+{"id" : "1", "label" : "Gère les impédiments rencontrés par la Dev Team pendant le Sprint"}
+,{"id" : "2", "label" : "Sélectionne l’objectif de Sprint, conduit et pilote le travail, répond aux questions"}
+,{"id" : "3", "label" : "Participe à tous les meeting Scrum"}
+,{"id" : "4", "label" : "Accepte ou rejette le résultat du travail réalisé pendant le Sprint Review"}
+]},
+
+{"id" :"77",
+"intitule" :"Afin de définir le Product Backlog, le Product Owner travaille en étroite collaboration avec",
+"choixMultiples" : false,
+"reponsesCorrectes" : [1],
+"reponses" : [
+{"id" : "1", "label" : "Son équipe et le reste du monde"}
+,{"id" : "2", "label" : "Uniquement les Stakeholders"}
+,{"id" : "3", "label" : "Le Product Manager et la Daily Scrum"}
+]},
+
+{"id" :"78",
+"intitule" :"Afin de prioriser le Product Backlog et délivrer un maximum de valeur, le plus rapidement possible, le Product Owner utilise",
+"choixMultiples" : false,
+"reponsesCorrectes" : [3],
+"reponses" : [
+{"id" : "1", "label" : "Le niveau de complexité"}
+,{"id" : "2", "label" : "La business value"}
+,{"id" : "3", "label" : "La business value et éventuellement la complexité de la Story"}
+,{"id" : "4", "label" : "L'objectif du Sprint"}
+]},
+
+{"id" :"79",
+"intitule" :"Quelle est la responsablité du Product Owner dans une équipe Scrum",
+"choixMultiples" : false,
+"reponsesCorrectes" : [1],
+"reponses" : [
+{"id" : "1", "label" : "Créer et maintenir le Backlog produit qui représente les besoins des Stakeholders et permet de délivrer un maximum de valeur"}
+,{"id" : "2", "label" : "Définir des objectifs de Sprint et s'assurer que la Dev Team les respectent bien et délivre un incrément de produit"}
+,{"id" : "3", "label" : "Créer et maintenir le Backlog en raffinant les User Stories afin qu'elles soient définitivement prêtes pour être embarquées dans un Sprint"}
+,{"id" : "4", "label" : "Définir des objectifs de Sprint qui soit compréhensibles par les Stakeholders"}
+]},
+
+{"id" :"80",
+"intitule" :"Que peut faire la Dev Team si le Product Owner est absent pendant une longue durée ?",
+"choixMultiples" : false,
+"reponsesCorrectes" : [4],
+"reponses" : [
+{"id" : "1", "label" : "Sélectionner temporairement un Product Owner de remplacement au sein de la Scrum Team"}
+,{"id" : "2", "label" : "Rien, la Scrum Team peut s'auto-organiser et maintenir le Backlog existant"}
+,{"id" : "3", "label" : "Le Scrum Master prend le role de Product Owner"}
+,{"id" : "4", "label" : "Faire rapidement appel à un nouveau Product Owner, dédié à cette tache"}
+]},
+
+{"id" :"81",
+"intitule" :"Le Stakeholder ce n'est pas",
+"choixMultiples" : true,
+"reponsesCorrectes" : [4],
+"reponses" : [
+{"id" : "1", "label" : "Celui qui connaît le besoin"}
+,{"id" : "2", "label" : "Celui qui définir le produit et les fonctionnalités"}
+,{"id" : "3", "label" : "Celui qui donne son feedback lors des review"}
+,{"id" : "4", "label" : "Celui qui défini les objectifs de Sprint"}
+]},
+
+{"id" :"82",
+"intitule" :"Qui suis-je ? Je collabore souvent avec la Dev Team pour qu'elle réalise un incrément de produit sans perdre de l'esprit les préoccupations des utilisateurs finaux.",
+"choixMultiples" : false,
+"reponsesCorrectes" : [2],
+"reponses" : [
+{"id" : "1", "label" : "Scrum Master"}
+,{"id" : "2", "label" : "Product Owner"}
+,{"id" : "3", "label" : "Product Manager"}
+,{"id" : "4", "label" : "Stakeholders"}
+]},
+
+{"id" :"83",
+"intitule" :"Qui suis je ? Le Product Owner travaille souvent avec moi afin d'écrire des User Stories ayant beaucoup de valeur.",
+"choixMultiples" : false,
+"reponsesCorrectes" : [4],
+"reponses" : [
+{"id" : "1", "label" : "Scrum Master"}
+,{"id" : "2", "label" : "Dev Team"}
+,{"id" : "3", "label" : "Product Manager"}
+,{"id" : "4", "label" : "Stakeholders"}
+]},
+
+{"id" :"84",
+"intitule" :"Comment mettre en place Scrum à grande échelle ?",
+"choixMultiples" : false,
+"reponsesCorrectes" : [2],
+"reponses" : [
+{"id" : "1", "label" : "Scrum de Scrum n'est pas réellement possible car il s'adapte mal aux gandes équipes"}
+,{"id" : "2", "label" : "En réalisant le changement d'échelle par la mise en collaboration de plusieurs équipes Scrum"}
+,{"id" : "3", "label" : "En découpant les équipes en sous équipes distribuées par spécialité, analyse, développement, tests et recette"}
+]},
+
+{"id" :"85",
+"intitule" :"La team c'est engagée sur ce qui doit être produit, mais qui peut changer le contenu du Sprint en cours ?",
+"choixMultiples" : false,
+"reponsesCorrectes" : [3],
+"reponses" : [
+{"id" : "1", "label" : "Personne"}
+,{"id" : "2", "label" : "Exceptionnellement le Scrum Master peut changer le contenu du Sprint à la demande des Sponsors et/ou Dev Team"}
+,{"id" : "3", "label" : "Exceptionnellement le Product Owner avec l'accord de la Dev Team, peut ajuster le Backlog du Sprint afin de répondre à une demande exceptionnelle"}
+,{"id" : "4", "label" : "Tout le monde à partir du moment ou le Product Owner a été informé"}
+]},
+
+{"id" :"86",
+"intitule" :"Quels facteurs sont à prendre en compte pour définir la durée d'un Sprint ?",
+"choixMultiples" : true,
+"reponsesCorrectes" : [1, 2, 3],
+"reponses" : [
+{"id" : "1", "label" : "Suffisamment court pour que le changement d’avis des Stakeholders sur les besoins soit plus lent que la durée du Sprint"}
+,{"id" : "2", "label" : "Etre assez long pour délivrer des User Stories (environs 3 fois le temps de réalisation d'une User Story moyenne)"}
+,{"id" : "3", "label" : "Etre en capacité de prévoir un effort fiable sur une durée de 4 semaines"}
+,{"id" : "4", "label" : "Assez long pour pouvoir réaliser l'ensemble du cycle, analyse, développement et tests de l'objectif de Sprint."}
+]},
+
+{"id" :"87",
+"intitule" :"Qui créé la Definition of Done (DoD) ?",
+"choixMultiples" : false,
+"reponsesCorrectes" : [4],
+"reponses" : [
+{"id" : "1", "label" : "Le Scrum Master pour s'assurer que la Dev Team respecte l'objectif de Sprint"}
+,{"id" : "2", "label" : "Le Product Owner pour s'assurer que la Dev Team va bien dans le sens de la vision du produit"}
+,{"id" : "3", "label" : "La Scrum Team afin d'atteindre une velocité acceptable tout en respectant la vison produit"}
+,{"id" : "4", "label" : "L'ensemble des Dev Team en commun si l'organisation en compte plusieurs"}
+]},
+
+{"id" :"88",
+"intitule" :"Que fait un Product Owner pendant un Sprint ?",
+"choixMultiples" : false,
+"reponsesCorrectes" : [2],
+"reponses" : [
+{"id" : "1", "label" : "Il participe à chaque Daily Scrum afin de répondre aux questions de la Dev Team sur la compréhension des User Stories"}
+,{"id" : "2", "label" : "Il met à jour le Product Backlog par ces échanges avec la Scrum Team, le Stakeholder, utilisateurs et Sponsors"}
+,{"id" : "3", "label" : "Il met à jour le Sprint Backlog afin de s'assurer de la progression de la Dev Team, de la tenue de son engagement et du suivi du planning"}
+,{"id" : "4", "label" : "Il met à jour les Burnup et Burndown chart afin de rendre compte au CODIR du respect du plan projet et du temps consommé."}
+]},
+
+{"id" :"89",
+"intitule" :"Quels sont les bénéfices de la Definition of Done pour le Product Owner ?",
+"choixMultiples" : true,
+"reponsesCorrectes" : [2],
+"reponses" : [
+{"id" : "1", "label" : "Cela permettra au Product Owner d'identifier quelles tâches pourront être ajoutées aux Sprints suivants"}
+,{"id" : "2", "label" : "La Definition of Done permet à la Dev Team de délivrer une User Story utilisable, ainsi le Product Owner pourra plus facilement décider de la valider ou non."}
+,{"id" : "3", "label" : "A rien, la Definition of Done sert juste à la Dev Team d'être certaine de ne rien avoir oublié"}
+,{"id" : "4", "label" : "La Definition of Done permet au Product Owner de suivre la progression du développement des User Stories"}
+]},
+
+{"id" :"90",
+"intitule" :"Qui participe et est actif pendant la Daily Scrum ?",
+"choixMultiples" : true,
+"reponsesCorrectes" : [1, 5, 6],
+"reponses" : [
+{"id" : "1", "label" : "La Dev Team (actif)"}
+,{"id" : "2", "label" : "La Dev Team (passif)"}
+,{"id" : "3", "label" : "Le Scrum Master (actif)"}
+,{"id" : "4", "label" : "Le Product Owner (actif)"}
+,{"id" : "5", "label" : "Le Scrum Master (passif)"}
+,{"id" : "6", "label" : "Le Product Owner (passif)"}
+]},
+
+{"id" :"91",
+"intitule" :"A quoi sert la Daily Scrum pour le Scrum Master ?",
+"choixMultiples" : false,
+"reponsesCorrectes" : [2],
+"reponses" : [
+{"id" : "1", "label" : "A obtenir un compte rendu de la Dev Team"}
+,{"id" : "2", "label" : "A faire un compte rendu du travail réalisé au Product Owner"}
+,{"id" : "3", "label" : "A s'assurer que la Dev Team n'a pas d'impediment, et si nécessaire à pouvoir ensuite les gérer"}
+]},
+
+{"id" :"92",
+"intitule" :"Qui participe et est actif pendant la Sprint Review ?",
+"choixMultiples" : true,
+"reponsesCorrectes" : [1, 3, 4, 6],
+"reponses" : [
+{"id" : "1", "label" : "La Dev Team (actif)"}
+,{"id" : "2", "label" : "Le Scrum Master (actif)"}
+,{"id" : "3", "label" : "Le Product Owner (actif)"}
+,{"id" : "4", "label" : "Le Scrum Master (passif)"}
+,{"id" : "5", "label" : "Le Product Owner (passif)"}
+,{"id" : "6", "label" : "Les Stakeholders (actif)"}
+,{"id" : "7", "label" : "Les Stakeholders (passif)"}
+,{"id" : "8", "label" : "La Dev Team (passif)"}
+]},
+
+{"id" :"93",
+"intitule" :"Que se passe-t-il pendant une Sprint Review ?",
+"choixMultiples" : true,
+"reponsesCorrectes" : [1, 4],
+"reponses" : [
+{"id" : "1", "label" : "Le Product Owner rappel l’objectif du Sprint et User Stories prévues"}
+,{"id" : "2", "label" : "Les stakholders testent et valident les User Stories"}
+,{"id" : "3", "label" : "Toutes les User Stories sont présentées, même si elles ne sont pas \"done\""}
+,{"id" : "4", "label" : "Les Stakeholders posent des questions, font des retours et des propositions qui sont notées"}
+]},
+
+{"id" :"94",
+"intitule" :"Que se passe-t-il pendant une Sprint Review ?",
+"choixMultiples" : true,
+"reponsesCorrectes" : [1, 2],
+"reponses" : [
+{"id" : "1", "label" : "Ce n’est pas une réunion de test et d’acceptation"}
+,{"id" : "2", "label" : "Seule les User Stories done sont présentées"}
+,{"id" : "3", "label" : "Les Stakeholders déterminent l'objectif du Sprint suivant"}
+,{"id" : "4", "label" : "Le Product Manager met à jour les Burnup/Burndown et gantt chart"}
+]},
+
+{"id" :"95",
+"intitule" :"Quel est le rôle du Product Owner pendant une Sprint Review ?",
+"choixMultiples" : true,
+"reponsesCorrectes" : [1, 2],
+"reponses" : [
+{"id" : "1", "label" : "Il met à jour le plan de release, du Backlog, du brundownchart"}
+,{"id" : "2", "label" : "Il présente l’objectif pour le Sprint suivant aux Stakeholders"}
+,{"id" : "3", "label" : "Il teste et valide les User Stories \"done\""}
+,{"id" : "4", "label" : "Il fait la démo des incréments de produit validé"}
+]},
+
+{"id" :"96",
+"intitule" :"Qui présente généralement la Sprint Review et quelles sont les bonnes pratiques ?",
+"choixMultiples" : false,
+"reponsesCorrectes" : [2],
+"reponses" : [
+{"id" : "1", "label" : "Le Product Owner ayant la vision du produit et ayant déterminé l'objectif de Sprint réalise la présentation une à une des différentes User Stories validées"}
+,{"id" : "2", "label" : "La Dev Team, en ayant construit une histoire respectant l'objectif de Sprint, présente les User Stories \"dones\", à minima sur un environement de préProduction et avec des données de tests préparées"}
+,{"id" : "3", "label" : "Chaque membre de la Dev Team présente une à une les User Stories qu'il a developpé sur son environement de développement"}
+]},
+
+{"id" :"97",
+"intitule" :"A minima quelles sont les 2 actions à mener pendant une rétrospective de Sprint",
+"choixMultiples" : true,
+"reponsesCorrectes" : [1, 2],
+"reponses" : [
+{"id" : "1", "label" : "Faire une analyse du Sprint passé en analysant comment s'est déroulé ce Sprint et quelles sont les pistes d'amélioration"}
+,{"id" : "2", "label" : "poser 2 questions à la Scrum Team, qu'est ce qui a bien foncionné et qu'il est possible de continuer à faire, qu'est ce qui c'est moins bien passé et qu'il faut améliorer ?"}
+,{"id" : "3", "label" : "Le Scrum Master présente un compte rendu du Sprint et en comparaison avec la vélocité des Sprints précédents présente les pistes d'amélioration"}
+,{"id" : "4", "label" : "En qualité de Product Owner et sa capacité à écrire des Stories, en s'aidant d'atelier Agile, il aide la Scrum Team à mieux s'engager sur l'objectif du projet"}
+]},
+
+{"id" :"98",
+"intitule" :"Comment déterminer la vélocité d'un Sprint ?",
+"choixMultiples" : true,
+"reponsesCorrectes" : [2],
+"reponses" : [
+{"id" : "1", "label" : "En prenant la moyenne des Sprints précédents plus 10%"}
+,{"id" : "2", "label" : "En tenant compte de la vélocité des Sprints précédents et de la capacité de la Dev Team en fonction de sa disProduct Ownernibilité"}
+,{"id" : "3", "label" : "En faisant la moyenne des Sprints précédents"}
+,{"id" : "4", "label" : "La vélocité est calculée sur la moyenne des 4 premiers Sprints et ne change plus ensuite."}
+]},
+
+{"id" :"99",
+"intitule" :"Comment est déterminé l'objectif du Sprint ?",
+"choixMultiples" : false,
+"reponsesCorrectes" : [2],
+"reponses" : [
+{"id" : "1", "label" : "Le Product Owner en fonction de l'échéance du projet et des échanges avec les Stakeholders détermine l'objectif du Sprint"}
+,{"id" : "2", "label" : "La Scrum Team, détermine collaborativement en une phrase un objectif de Sprint Scrum MasterART (Spécifique, Mesurable, Accepté, Réaliste, Temporel)"}
+]},
+
+{"id" :"100",
+"intitule" :"Quelles sont les 2 actions possibles si le Product Owner n'a pas préparé suffisement de User Stories pour démarrer un Sprint ?",
+"choixMultiples" : true,
+"reponsesCorrectes" : [3, 4],
+"reponses" : [
+{"id" : "1", "label" : "La Scrum Team décide de ne pas réaliser de Sprint Planning."}
+,{"id" : "2", "label" : "Le démarage du Sprint est décalé jusqu'à ce que le Product Owner ait suffisament de Stories prêtes"}
+,{"id" : "3", "label" : "le Product Owner présente les User Stories prêtes, ou pendant le planning les rend prêtes afin de les ajouter au planning, un objectif de Sprint est déterminé."}
+,{"id" : "4", "label" : "Eventuellement un 2nd Sprint Planning pourra avoir lieu en milieu de Sprint, de nouvelles User Stories prêtes pourront être ajoutées au Sprint en cours tout en respectant l'objectif."}
+]},
+
+{"id" :"101",
+"intitule" :"Qui est garant de la vision produit ?",
+"choixMultiples" : false,
+"reponsesCorrectes" : [2],
+"reponses" : [
+{"id" : "1", "label" : "Les Stakeholders et SProduct Ownernsor"}
+,{"id" : "2", "label" : "Le Product Owner"}
+,{"id" : "3", "label" : "Le Scrum Master"}
+,{"id" : "4", "label" : "Le service marketing"}
+]},
+
+{"id" :"102",
+"intitule" :"Quel est l'objectif pour le Product Owner de définir et de détenir la vision produit ?",
+"choixMultiples" : false,
+"reponsesCorrectes" : [1],
+"reponses" : [
+{"id" : "1", "label" : "Elle va permettre de définir le chemin, le périmètre et les contraintes du projet"}
+,{"id" : "2", "label" : "Elle va permettre au Product Owner de réaliser un Backlog produit complet avant de pouvoir lancer le projet"}
+,{"id" : "3", "label" : "Il n'est pas nécessaire pour le Product Owner d'y consacrer trop de temps, en effet il est fréquent que les Stakeholders changent d'avis"}
+]},
+
+{"id" :"103",
+"intitule" :"Qu'est ce qu'une feature ?",
+"choixMultiples" : false,
+"reponsesCorrectes" : [1],
+"reponses" : [
+{"id" : "1", "label" : "Un service fourni par le système, observable de l'extérieur, et qui remplit directement un besoin d'une partie-prenante"}
+,{"id" : "2", "label" : "Est équivalent à une User Story et remplit directement un besoin exprimé par les Stakeholders"}
+,{"id" : "3", "label" : "Est équivalent à une Epic et remplit directement un besoin exprimé par les Stakeholders"}
+]},
+
+{"id" :"104",
+"intitule" :"Qu'est ce que va identifier le Product Owner pendant la définition de la vision ?",
+"choixMultiples" : false,
+"reponsesCorrectes" : [1],
+"reponses" : [
+{"id" : "1", "label" : "L'élaboration de la vision du produit passe par l'identification des features et des utilisateurs"}
+,{"id" : "2", "label" : "L'élaboration de la vision du produit passe par l'identification de toutes les User Stories"}
+,{"id" : "3", "label" : "L'élaboration de la vision du produit passe par l'identification des utilisateurs et du planning de mise en production des toutes les features"}
+]},
+
+{"id" :"105",
+"intitule" :"Que contient un Backlog de produit ?",
+"choixMultiples" : false,
+"reponsesCorrectes" : [1],
+"reponses" : [
+{"id" : "1", "label" : "Les features, thèmes, Epics, User Stories, Story technique, bug."}
+,{"id" : "2", "label" : "Uniquement les User Stories à réaliser"}
+,{"id" : "3", "label" : "Les features, thèmes, Epics, User Stories"}
+,{"id" : "4", "label" : "les thèmes, Epics, User Stories"}
+]},
+
+{"id" :"106",
+"intitule" :"Qu'est ce qu'un thème ?",
+"choixMultiples" : false,
+"reponsesCorrectes" : [1],
+"reponses" : [
+{"id" : "1", "label" : "Une collection de Stories"}
+,{"id" : "2", "label" : "Un regroupement de features"}
+,{"id" : "3", "label" : "Des taches regroupées"}
+]},
+
+{"id" :"107",
+"intitule" :"Une User Story est une notion qui provient de :",
+"choixMultiples" : false,
+"reponsesCorrectes" : [1],
+"reponses" : [
+{"id" : "1", "label" : "XP"}
+,{"id" : "2", "label" : "Scrum"}
+,{"id" : "3", "label" : "KANBAN"}
+]},
+
+{"id" :"108",
+"intitule" :"Qu'est ce que Minimal Marketable Features (MMF)",
+"choixMultiples" : false,
+"reponsesCorrectes" : [1],
+"reponses" : [
+{"id" : "1", "label" : "Un ensemble cohérent de Stories, qui de façon minimale répond à une finalité du produit, comparable à l'objectif de Sprint"}
+,{"id" : "2", "label" : "Permettre à la Dev Team de recueillir un maximum de retour d'expérience et de satisfaction client."}
+]},
+
+{"id" :"109",
+"intitule" :"Qu'est ce que Minimum Viable Product (MVP)",
+"choixMultiples" : false,
+"reponsesCorrectes" : [1],
+"reponses" : [
+{"id" : "1", "label" : "Permettre à l’équipe de recueillir un maximum de retour d'expérience et de satisfaction client."}
+,{"id" : "2", "label" : "Un ensemble cohérent de Stories, qui de façon minimale répond à une finalité du produit, comparable à l'objectif de Sprint"}
+]},
+
+{"id" :"110",
+"intitule" :"Qu'est ce que la définition de prêt?",
+"choixMultiples" : false,
+"reponsesCorrectes" : [1],
+"reponses" : [
+{"id" : "1", "label" : "Une User Story est dite prête quand elle remplit tous les critères lui permettant de rentrer dans un Sprint."}
+,{"id" : "2", "label" : "Une User Story est dite prête quand elle remplit tous les critères d'acceptances qui permettent de la tester et de la valider"}
+,{"id" : "3", "label" : "Une User Story est dite prête quand elle est validée et prête à être mise en Production"}
+]},
+
+{"id" :"111",
+"intitule" :"Qui rédige la définition de prêt ?",
+"choixMultiples" : false,
+"reponsesCorrectes" : [3],
+"reponses" : [
+{"id" : "1", "label" : "Le Scrum Master afin de proteger la Dev Team des Stories qui ne sont pas suffisament bien définies"}
+,{"id" : "2", "label" : "La Dev Team qui ainsi s'assure de pouvoir démarrer immédiatement le développement d'une User Story"}
+,{"id" : "3", "label" : "La Scrum Team qui la rédige en commun"}
+]},
+
+{"id" :"112",
+"intitule" :"Quelles sont les 3 points que peut contenir la définition de prêt ?",
+"choixMultiples" : true,
+"reponsesCorrectes" : [1, 2, 3],
+"reponses" : [
+{"id" : "1", "label" : "Correctement rédigée (en tant que ... je veux ... afin de ....)"}
+,{"id" : "2", "label" : "Suffisament petite afin d'être réalisée en moins d'un Sprint"}
+,{"id" : "3", "label" : "Qui a des Critères d'Acceptation"}
+,{"id" : "4", "label" : "Dont la spécification foncionnelle a été validée par le project manager"}
+]},
+
+{"id" :"113",
+"intitule" :"A quels items s'appliquent la définition de prêt ?",
+"choixMultiples" : false,
+"reponsesCorrectes" : [3],
+"reponses" : [
+{"id" : "1", "label" : "Uniquement aux User Stories"}
+,{"id" : "2", "label" : "Aux User Stories, Stories techniques"}
+,{"id" : "3", "label" : "A tous les items qui sont embarqués dans un Sprint"}
+]},
+
+{"id" :"114",
+"intitule" :"Qu'est ce que ne doivent pas contenir les Critères d'Acceptation ?",
+"choixMultiples" : true,
+"reponsesCorrectes" : [1, 2],
+"reponses" : [
+{"id" : "1", "label" : "Ne doivent pas contenir de « Si »"}
+,{"id" : "2", "label" : "Ne doivent pas définir la solution d’implémentation"}
+,{"id" : "3", "label" : "Ne doivent pas contenir les tests de la User Story"}
+,{"id" : "4", "label" : "Ne doivent pas contenir les exigences détaillées de la User Story"}
+]},
+
+{"id" :"115",
+"intitule" :"Quel est le but de rédiger des Critères d'Acceptation ?",
+"choixMultiples" : false,
+"reponsesCorrectes" : [1],
+"reponses" : [
+{"id" : "1", "label" : "C’est l’engagement du Product Owner à ne jamais formuler un besoin sans fournir à l’équipe les moyens de savoir quand elle aura terminé son travail."}
+,{"id" : "2", "label" : "Cela permet de remplacer les spécifications fonctionnelles détaillées pour que la Dev Team puisse réaliser les spécifications techniques"}
+,{"id" : "3", "label" : "C’est l’engagement du Product Owner à formuler un besoin en fournissant aux stakeholers la preuve que leur besoin à bien été compris."}
+]},
+
+{"id" :"116",
+"intitule" :"Quels sont les 2 avantages majeur de la matrice \"Given When Then\"",
+"choixMultiples" : true,
+"reponsesCorrectes" : [1, 3],
+"reponses" : [
+{"id" : "1", "label" : "Aider la rédaction des tests et Critères d'Acceptation d'une User Story, tout en étant facile à rédiger avec les Stakeholders"}
+,{"id" : "2", "label" : "Permet aux Stakeholders de rédigier des User Stories de façon autonome"}
+,{"id" : "3", "label" : "Pouvoir facilement se transformer en User Stories pour un besoin de sous-découpage"}
+,{"id" : "4", "label" : "Permettre à la Dev Team de test d'écrire les tests automatisés"}
+]},
+
+{"id" :"117",
+"intitule" :"A quoi sert la définition des personnas dans un projet Agile",
+"choixMultiples" : false,
+"reponsesCorrectes" : [2],
+"reponses" : [
+{"id" : "1", "label" : "A savoir qui sont les sakeholders et que la Dev Team puisse facilement les comprendre"}
+,{"id" : "2", "label" : "A identifier les \"users\", aider la rédaction des Stories du point de vue de l'ulisateur et leur compréhension par la Dev Team"}
+,{"id" : "3", "label" : "Au marketing pour optimiser la campagne de lancement du produit"}
+]},
+
+{"id" :"118",
+"intitule" :"Quels sont les 3 avantages de réaliser un Story mapping ?",
+"choixMultiples" : true,
+"reponsesCorrectes" : [1, 4],
+"reponses" : [
+{"id" : "1", "label" : "Rend visible le workflow ou la chaîne de valeur, permettant de planifier les releases (Livraisons) en tranches complètes de fonctionnalités."}
+,{"id" : "2", "label" : "Donne la vision exhaustive du produit avant de pouvoir démarrer le projet"}
+,{"id" : "3", "label" : "Montre les relations entre les grandes Stories (Epics) et leurs Stories parentes"}
+,{"id" : "4", "label" : "Permet ensuite au project manager de réaliser un diagramme de PERT"}
+]},
+
+{"id" :"119",
+"intitule" :"A quoi sert le planning proker ?",
+"choixMultiples" : false,
+"reponsesCorrectes" : [2],
+"reponses" : [
+{"id" : "1", "label" : "A estimer le nombre de point que l'on peut embarquer dans un Sprint"}
+,{"id" : "2", "label" : "A déterminer la complexité (ou effort) d'une User Story"}
+,{"id" : "3", "label" : "Au Product Owner de prioriser le Sprint Backlog avant le Sprint Planning"}
+]},
+
+{"id" :"120",
+"intitule" :"Qu'est ce que le Product Backlog ?",
+"choixMultiples" : false,
+"reponsesCorrectes" : [2],
+"reponses" : [
+{"id" : "1", "label" : "C'est le dossier partagé qui contient tous les documents de projets"}
+,{"id" : "2", "label" : "il définit le périmètre du produit, il contient tout ce qui représente du travail pour l’équipe, il répond à la question, pour qui ? pour quoi ? pour quand ?"}
+,{"id" : "3", "label" : "il définit le périmètre du Sprint, il contient tout ce qui représente du travail pour l’équipe, il répond à la question, pour qui ? pour quoi ? pour quand ?"}
+,{"id" : "4", "label" : "Il définit une liste de fonctionnalités à mettre en production à une date définie"}
+]},
+
+{"id" :"121",
+"intitule" :"A quoi sert le Grooming ?",
+"choixMultiples" : false,
+"reponsesCorrectes" : [1],
+"reponses" : [
+{"id" : "1", "label" : "A prioriser le Product Backlog, estimer les exigences, et identifier les priorités hautes pour les préparer pour le Sprint Planning"}
+,{"id" : "2", "label" : "Au Product Owner de nettoyer le Backlog des User Stories abandonnées et de découper les Epics"}
+,{"id" : "3", "label" : "A la Dev Team de préparer les User Stories à être prêtes pour le Sprint Planning"}
+]},
+
+{"id" :"122",
+"intitule" :"Pourquoi le Product Owner doit ordonner le Product Backlog par priorité ?",
+"choixMultiples" : false,
+"reponsesCorrectes" : [2],
+"reponses" : [
+{"id" : "1", "label" : "Par ce que cela montre que le projet est bien organisé et au Product Owner de prouver qu'il va apporter de la valeur"}
+,{"id" : "2", "label" : "Le Product Owner peut ainsi facilement identifier les prochaines User Stories à embarquer dans un Sprint, savoir lesquelles raffiner"}
+,{"id" : "3", "label" : "Cela n'a pas beaucoup d'importance car c'est ensuite la Dev Team qui décide de l'objectif de Sprint et selectionne les User Stories à embarquer."}
+]},
+
+{"id" :"123",
+"intitule" :"Comment le Product Owner peut-il prioriser le Product Backlog ?",
+"choixMultiples" : true,
+"reponsesCorrectes" : [2],
+"reponses" : [
+{"id" : "1", "label" : "En utilisant la formule de MoSCoW, à savoir le ratio entre les points de complexité et le temps de développement réel"}
+,{"id" : "2", "label" : "En prenant en compte la valeur métier et la complexité pour réaliser la Story"}
+,{"id" : "3", "label" : "En ne tenant compte que de la valeur métier"}
+,{"id" : "4", "label" : "En priorisant en premier les User Stories que la Dev Team sera en capacité de réaliser"}
+]},
+
+{"id" :"124",
+"intitule" :"Qui peut modifier le Product Backlog ?",
+"choixMultiples" : true,
+"reponsesCorrectes" : [2],
+"reponses" : [
+{"id" : "1", "label" : "Les membres du CODIR peuvent modifier le Product Backlog et les priorités"}
+,{"id" : "2", "label" : "Il n'y a que le Product Owner qui peut modifier le Product Backlog"}
+,{"id" : "3", "label" : "Le project manager est en droit de pouvoir changer le Product Backlog s'il pense que le projet n'est pas en phase avec les objectifs"}
+,{"id" : "4", "label" : "Le Scrum Master peut modifier les Product Backlog s'il identifie des inpediments diminuant la vélocité de son équipe"}
+]},
+
+{"id" :"125",
+"intitule" :"Quels sont les instruments de pilotages de projets Agile ?",
+"choixMultiples" : true,
+"reponsesCorrectes" : [1],
+"reponses" : [
+{"id" : "1", "label" : "Burnup et Burndown chart de Sprint / release / produit"}
+,{"id" : "2", "label" : "Un gantt chart"}
+,{"id" : "3", "label" : "Tout type de document montrant l'évolution de la productivité de la Dev Team"}
+,{"id" : "4", "label" : "Un histogramme d'évolutions du nombre de Story acceptées par Sprint"}
+]}]

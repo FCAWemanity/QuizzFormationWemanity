@@ -1,0 +1,13 @@
+[
+		{
+			"id" : "1",
+			"nomInterne" : "PSPO V1",
+			"nomVisible" : "Certification PSPO Wemanity", 
+			"tempsParQuestionSecondes" : "90",
+			"path" : "./enonces/pspoV1.json",
+			"nombreQuestions" : "80",
+			"pourcentageCertification" : "80", 
+			"description" : "Bienvenue ! Vous allez passer la certification PO by Wemanity. Nous vous souhaitons Bon Chance !", 
+			"regles" : "Pour rappel, cette certification doit se passer en une seule fois. Si vous abandonnez en cours de route, vous devrez recommencer depuis le début. Les questions et réponses sont randomisées. Attention certaines questions sont à choix multiple, sans indication du nombre de réponses possibles, toutes les réponses sont possibles, et au moins une."
+		}
+]

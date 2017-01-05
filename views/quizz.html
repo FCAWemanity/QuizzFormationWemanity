@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quizz de certification</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<!-- JQUERY -->
+	<script
+	  src="https://code.jquery.com/jquery-3.1.1.min.js"
+	  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+	  crossorigin="anonymous"></script>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<style>
+.align-right{
+	text-align:right;
+}
+
+.form-desc-rules:first-child{
+	margin-top:0px;
+	border-top: none;
+	padding-top : 0px;
+}
+
+.form-desc-rules{
+	margin-top: 15px;
+	padding-top: 10px;
+	border-top: 1px solid #CCC;
+}
+
+.panel{
+	margin-top: 40px;
+}
+
+.panel-body{
+	text-align: justify;
+}
+
+#questionLabel{
+	font-weight:bold;
+}
+
+</style>
+
+	<div class="row">
+		<div class="col-lg-3"></div>
+		<div class="col-lg-6">
+			<div class="panel panel-default">
+				<div class="panel-heading align-right">
+					<span id="questionNumber"></span>
+				</div>
+				<div class="panel-body">
+					<span id="questionLabel"></span>
+					<br/>
+					<div id="answers">
+
+					</div>
+					<div id="radio-sample" class="radio hidden">
+  						<label><input type="radio" name="optradio"></label>
+					</div>
+					<div id="checkbox-sample" class="checkbox hidden">
+  						<label><input type="checkbox" value="" data-value="toto"></label>
+					</div>
+
+					 <button class="btn btn-primary pull-right" id="continue">Continuer</button>
+					 <button type="submit" class="btn btn-primary pull-right hidden" id="submit">Soumettre mon questionnaire</button>
+				</div>	
+				<div class="panel-footer align-right">
+					<small>Wemanity &copy; - We Academy, tous droits réservés</small>
+					<img src="http://www.wemanity.com/sig/W-gradientcolors.png" height="30px"><img>
+				</div>	
+			</div>
+		</div>
+		<div class="col-lg-3"></div>
+	</div>
+
+<script>
+
+var multipleChoices = false; 
+
+function continueCallback(result){
+	$("#answers").html(""); 
+	multipleChoices = fillForm(result);
+
+	if( result.currentNumber === result.numberOfQuestions ){
+		$("#continue").remove();
+		$("#submit").removeClass("hidden").off("click").on("click", function(){
+			console.log("c fini lol");
+		});
+	}
+}
+
+function fillForm(data){
+	$("#questionNumber").text("Question " + data.currentNumber + " / " + data.numberOfQuestions);
+	$("#questionLabel").text( data.currentQuestion); 
+
+	var multipleChoices = data.currentQuestionMultipleAnswers; 
+	var choices = data.currentChoices;
+	for(var i = choices.length -1 ; i >= 0 ; i--)
+	{
+		var tmp; 
+		if( multipleChoices === true )
+		{
+			tmp = $("#checkbox-sample").clone().removeClass("hidden"); 
+							}
+		else if(multipleChoices === false)
+		{
+			tmp = $("#radio-sample").clone().removeClass("hidden"); 
+		}
+		tmp.attr("id", "");
+		tmp.children().eq(0).children().eq(0).attr("data-value", choices[i].id); 
+		tmp.children().eq(0).children().eq(0).after(choices[i].label); 
+		$("#answers").prepend(tmp);
+	}
+	return multipleChoices; 
+}
+
+$(document).ready(function(){
+	$.ajax({
+		url: "firstQuestion", 
+		type: "get", 
+		success : function(result){
+			multipleChoices = fillForm(result);		
+
+			$("#continue").off("click").on("click", function(){
+				var dataToSend; 
+				if(multipleChoices === false){
+					dataToSend = [ parseInt($("input[type=\"radio\"]:checked").attr("data-value")) ]; 
+				}
+				else{
+					dataToSend = $("input[type=\"checkbox\"]:checked").map(function(){return parseInt($(this).attr("data-value")) ; } ).sort();
+				}
+				console.log("data to send : " + dataToSend);
+				$.ajax({
+					url: "nextQuestion", 
+					type: "get", 
+					data: { array : dataToSend },
+					success: continueCallback
+				});
+			});
+		}
+	});
+});
+
+</script>
+
+</body>
+</html>

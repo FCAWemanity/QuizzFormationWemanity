@@ -1,0 +1,38 @@
+[
+	{
+		"id" : "1", 
+		"intitule" : "toto", 
+		"choixMultiples" : true, 
+		"reponsesCorrectes" : [1, 4], 
+		"reponses" : {
+		"choix": [
+				{
+					"id" : "1",		
+					"label" : "Votre blanquette est bonne"
+				}, 
+				{
+					"id" : "4",
+					"label" : "J'aime me beurrer la biscotte au petit matin"
+				}
+			]
+		}
+	},
+	{
+		"id" : "2", 
+		"intitule" : "tata", 
+		"choixMultiples" : true, 
+		"reponsesCorrectes" : [1, 4], 
+		"reponses" : {
+		"choix": [
+				{
+					"id" : "1",		
+					"label" : "Votre blanquette est bonneBIS"
+				}, 
+				{
+					"id" : "4",
+					"label" : "J'aime me beurrer la biscotte au petit matinBIS"
+				}
+			]
+		}
+	}
+]

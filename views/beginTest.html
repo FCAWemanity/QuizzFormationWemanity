@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Début de la certification</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<!-- JQUERY -->
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<style>
+
+.align-right{
+	text-align:right;
+}
+
+.form-desc-rules:first-child{
+	margin-top:0px;
+	border-top: none;
+	padding-top : 0px;
+}
+
+.form-desc-rules{
+	margin-top: 15px;
+	padding-top: 10px;
+	border-top: 1px solid #CCC;
+}
+
+.panel{
+	margin-top: 40px;
+}
+
+.panel-body{
+	text-align: justify;
+}
+
+</style>
+
+	<div class="row">
+		<div class="col-lg-3"></div>
+		<div class="col-lg-6">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4><%= titre %></h3>
+				</div>
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-lg-12 form-desc-rules">
+							<%= descriptif %>
+						</div>
+						<div class="col-lg-12 form-desc-rules">
+							<div><%= rules %></div>
+							<br/>
+							Le test comporte <%= nbQuestions %> questions.
+							<br/>
+							Le temps par question est de : <%= nbSecondesQuestion %> secondes.
+							<br/>
+							Le temps total alloué au test est de : <%= tpsTotalMin %> minutes et <%= tpsTotalSec %> secondes.
+							<br/> 
+							Il vous faut au moins <%= pourcentageReussite %>% de bonnes réponses pour réussir ce test.
+
+						</div>
+						<div class="col-lg-12 form-desc-rules">
+							<form action="quizz/<%= titre %>" method="post">
+								<div class="form-group">
+									    <label for="inputMail">Adresse mail</label>
+    									<input type="email" class="form-control" id="inputMail" name="email" aria-describedby="emailHelp" placeholder="jean.dupont@mon-entreprise.com" required>
+    									<small id="emailHelp" class="form-text text-muted">Votre adresse mail sera utilisée afin de vous envoyer les résultats du test</small>
+								</div>
+								<div class="form-group">
+    								<label for="lastname">Nom</label>
+    								<input type="text" class="form-control" id="lastname" name="lastname" placeholder="Dupont" required>
+  								</div>
+								  <div class="form-group">
+    								<label for="surname">Prénom</label>
+    								<input type="text" class="form-control" id="surname" name="surname" placeholder="Jean" required>
+  								</div>
+
+  								  <button type="submit" class="btn btn-primary pull-right">Commencer le test</button>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="panel-footer align-right">
+					<small>Wemanity &copy; - We Academy, tous droits réservés</small>
+					<img src="http://www.wemanity.com/sig/W-gradientcolors.png" height="30px"><img>
+				</div>		
+			</div>
+		</div>
+		<div class="col-lg-3"></div>
+	</div>
+</body>
+</html>
